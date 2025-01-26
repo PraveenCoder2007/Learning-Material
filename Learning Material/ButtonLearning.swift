@@ -27,7 +27,7 @@ struct ButtonLearning: View {
             Button(action: {
                 isSubscribed.toggle()
             }) {
-                Text(isSubscribed ? "Subscribed" : "Subscribe")
+                Text(isSubscribed ? "Subscribed" : "Subscrib")
                     .padding()
                     .background(Color.green)
                     .foregroundColor(.white)
